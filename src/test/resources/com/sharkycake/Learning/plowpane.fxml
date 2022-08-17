@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane alignment="CENTER" hgap="5.0" layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" nodeOrientation="LEFT_TO_RIGHT" orientation="VERTICAL" prefHeight="188.0" prefWidth="318.0" rowValignment="TOP" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sharkycake.Learning.FlowPaneController">
+   <children>
+      <Button fx:id="CheckTime" mnemonicParsing="false" onAction="#CheckTimeOnClick" rotate="179.6" text="Check your Time">
+         <FlowPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </FlowPane.margin></Button>
+      <TextField fx:id="CheckTimeTextField" />
+      <Button fx:id="reallyButton" mnemonicParsing="false" onAction="#ReallyOnClick" prefHeight="33.0" prefWidth="204.0" text="Really?" />
+      <TextField fx:id="ReallyTextField" />
+   </children>
+   <padding>
+      <Insets bottom="1.0" left="2.0" right="10.0" top="5.0" />
+   </padding>
+</FlowPane>

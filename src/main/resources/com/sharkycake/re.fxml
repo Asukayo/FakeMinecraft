@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="148.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sharkycake.Controllers.HelloController">
+   <children>
+      <Button blendMode="MULTIPLY" layoutX="26.0" layoutY="75.0" mnemonicParsing="false" onAction="#Change" prefHeight="55.0" prefWidth="143.0" text="Press to Start" />
+      <Text layoutX="10.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Welcome to Minecraft " wrappingWidth="347.82861328125">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button layoutX="190.0" layoutY="75.0" mnemonicParsing="false" onAction="#Change" prefHeight="55.0" prefWidth="143.0" text="Exit" />
+   </children>
+</AnchorPane>
